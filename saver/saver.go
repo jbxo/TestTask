@@ -14,8 +14,8 @@ import (
 )
 
 const (
-	SqliteDBPath  = "storage\\queriesLog.sqlite"
-	FilesaverPath = "storage\\log"
+	SqliteDBPath  = "queriesLog.sqlite"
+	FilesaverPath = "log"
 )
 
 type Env struct {
